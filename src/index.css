@@ -1,13 +1,24 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Just a thought but decided not to use it */
+#top {
+  /* background-image: url(./img/my-pic.jpg); */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("./img/my-pic.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 560px;
+  background-attachment: scroll;
+}
+
+.header-height {
+  height: 65vh;
+}
+
+#socials i {
+  font-size: 2.5rem;
 }
