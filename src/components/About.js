@@ -51,6 +51,9 @@ const About = () => {
                     <li className="list-group-item list-group-item-primary">
                       Bootstrap
                     </li>
+                    <li className="list-group-item list-group-item-danger">
+                      Figma
+                    </li>
                   </ul>
                 </li>
               </ul>
