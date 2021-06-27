@@ -22,7 +22,7 @@ const About = () => {
               <p className="h4">I have experience with the following:</p>
 
               <ul className="list-group list-group-flush">
-                <li className="list-group-item">
+                <li className="list-group-item list-group-item-secondary">
                   <span className="fw-bold">Languages:</span>
                   <ul className="list-group list-group-horizontal-sm">
                     <li className="list-group-item list-group-item-danger">HTML</li>
@@ -41,17 +41,11 @@ const About = () => {
                     </li>
                   </ul>
                 </li>
-                <li className="list-group-item">
+                <li className="list-group-item list-group-item-secondary">
                   <span className="fw-bold">Technologies:</span>
                   <ul className="list-group list-group-horizontal-sm">
-                    <li className="list-group-item list-group-item-danger">
-                      Angular
-                    </li>
                     <li className="list-group-item list-group-item-secondary">
                       Git/GitHub
-                    </li>
-                    <li className="list-group-item list-group-item-warning">
-                      Firebase
                     </li>
                     <li className="list-group-item list-group-item-info">React</li>
                     <li className="list-group-item list-group-item-primary">
