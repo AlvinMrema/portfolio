@@ -10,9 +10,9 @@ const Projects = () => {
 
         <div className="row text-sm-center g-3 my-3">
           <div className="col-md">
-            <div className="card bg-dark text-light">
+            <div className="card h-100 bg-dark text-light">
               <div className="card-header h2 text-center">Demo Game</div>
-              <img src={game} class="card-img-top" alt="Python"></img>
+              <img src={game} class="card-img-top h-50" alt="Python"></img>
               <div className="card-body">
                 <h3 className="card-title">A Survival Demo Game</h3>
                 <p className="card-text">
@@ -20,6 +20,8 @@ const Projects = () => {
                   Survival browser game. It was a solution to a challenge hosted
                   on stemloyola platform.
                 </p>
+              </div>
+              <div className="card-footer">
                 <a
                   href="https://demos.stemloyola.org/coder/amrema/demo"
                   className="btn btn-primary"
@@ -31,9 +33,9 @@ const Projects = () => {
           </div>
 
           <div className="col-md">
-            <div className="card bg-dark text-light">
+            <div className="card h-100 bg-dark text-light">
               <div className="card-header h2 text-center">Safari</div>
-              <img src={safariPhoto} class="card-img-top" alt="Python"></img>
+              <img src={safariPhoto} class="card-img-top h-50" alt="Python"></img>
               <div className="card-body">
                 <h3 className="card-title">
                   A Static Website About Wildlife in Tanzania
@@ -44,6 +46,8 @@ const Projects = () => {
                   so that you may get the motivation to Live the experience
                   yourself.
                 </p>
+              </div>
+              <div className="card-footer">
                 <a
                   href="https://acamsafari.netlify.app/"
                   className="btn btn-primary"
@@ -55,11 +59,11 @@ const Projects = () => {
           </div>
 
           <div className="col-md">
-            <div className="card bg-dark text-light">
+            <div className="card h-100 bg-dark text-light">
               <div className="card-header h2 text-center">
-                Networking Lab 1(Cities)
+                Networking(Cities)
               </div>
-              <img src={pythonLogo} class="card-img-top" alt="Python"></img>
+              <img src={pythonLogo} class="card-img-top h-50" alt="Python"></img>
               <div className="card-body">
                 <h3 className="card-title">A Networking Challenge Solution</h3>
                 <p className="card-text">
@@ -69,6 +73,8 @@ const Projects = () => {
                   Computer storage in the OS using a C++ program. It was a
                   solution to a challenge hosted on stemloyola platform.
                 </p>
+              </div>
+              <div className="card-footer">
                 <a
                   href="https://demos.stemloyola.org/coder/amrema/cities"
                   className="btn btn-primary"
@@ -81,12 +87,12 @@ const Projects = () => {
         </div>
 
         <div className="row text-sm-center">
-          <div className="col-md-6 offset-md-3">
-            <div className="card bg-dark text-light">
+          <div className="col-md-4 offset-md-4">
+            <div className="card h-100 bg-dark text-light">
               <div className="card-header h2 text-center">
                 Virus Cleanup Tool
               </div>
-              <img src={pythonLogo} class="card-img-top" alt="Python"></img>
+              <img src={pythonLogo} class="card-img-top h-50" alt="Python"></img>
               <div className="card-body">
                 <h3 className="card-title">
                   A Python File Renaming Automation Tool
@@ -96,6 +102,8 @@ const Projects = () => {
                   renaming all the files with a chosen file extension to another
                   format in a specified folder/directory
                 </p>
+              </div>
+              <div className="card-footer">
                 <a
                   href="https://github.com/AlvinMrema/virus-cleanup-tool"
                   className="btn btn-primary"

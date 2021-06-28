@@ -3,7 +3,7 @@ const NavBar = () => {
         <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
             <div className="container">
                 <a href="#top" className="navbar-brand">
-                    <i className="bi bi-person-circle"></i> Alvin Chris Mrema
+                    Alvin Chris Mrema
                 </a>
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
