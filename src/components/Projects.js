@@ -10,7 +10,7 @@ const Projects = () => {
 
         <div className="row text-sm-center g-3 my-3">
           <div className="col-md">
-            <div className="card h-100 bg-dark text-light">
+            <div className="card h-100 dark-bg-color text-light">
               <div className="card-header h2 text-center">Demo Game</div>
               <img src={game} class="card-img-top h-50" alt="Python"></img>
               <div className="card-body">
@@ -33,7 +33,7 @@ const Projects = () => {
           </div>
 
           <div className="col-md">
-            <div className="card h-100 bg-dark text-light">
+            <div className="card h-100 dark-bg-color text-light">
               <div className="card-header h2 text-center">Safari</div>
               <img src={safariPhoto} class="card-img-top h-50" alt="Python"></img>
               <div className="card-body">
@@ -59,7 +59,7 @@ const Projects = () => {
           </div>
 
           <div className="col-md">
-            <div className="card h-100 bg-dark text-light">
+            <div className="card h-100 dark-bg-color text-light">
               <div className="card-header h2 text-center">
                 Networking(Cities)
               </div>
@@ -88,7 +88,7 @@ const Projects = () => {
 
         <div className="row text-sm-center">
           <div className="col-md-4 offset-md-4">
-            <div className="card h-100 bg-dark text-light">
+            <div className="card h-100 dark-bg-color text-light">
               <div className="card-header h2 text-center">
                 Virus Cleanup Tool
               </div>

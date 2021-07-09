@@ -1,6 +1,6 @@
 const NavBar = () => {
     return (
-        <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
+        <nav className="navbar navbar-expand-lg dark-bg-color navbar-dark py-3 fixed-top">
             <div className="container">
                 <a href="#top" className="navbar-brand">
                     Alvin Chris Mrema

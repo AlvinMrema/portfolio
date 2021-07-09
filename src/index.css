@@ -2,7 +2,25 @@ body::before {
   display: block;
   content: '';
   height: 60px;
+
+  background-color: #222831;
+  color: #eeeeee;
 }
+
+
+/* Color Palette */
+.dark-bg-color {
+  background-color: #393e46;
+}
+
+.secondary-bg-color {
+  background-color: #444444;
+}
+
+.support-text-color {
+  color: #00adb5;
+}
+
 
 /* Just a thought but decided not to use it */
 #top {
