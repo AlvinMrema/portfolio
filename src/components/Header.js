@@ -5,7 +5,7 @@ const Header = () => {
                 <div className="row justify-content-between align-items-center header-height">
                     <div>
                         <h1 className="mb-3 text-white">
-                            Hi, I'm <span className="support-text-color">Alvin Chris Mrema</span>.
+                            Hi, I'm <span className="text-info">Alvin Chris Mrema</span>.
                             <br />
                             I'm a Software Engineer.
                         </h1>

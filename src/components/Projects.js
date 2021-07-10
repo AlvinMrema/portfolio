@@ -4,15 +4,15 @@ import game from "../img/game.jpg";
 
 const Projects = () => {
   return (
-    <section id="projects" className="p-5">
+    <section id="projects" className="p-5 secondary-bg-color">
       <div className="container">
-        <h2 className="text-center text-dark mb-0">My Projects</h2>
+        <h2 className="text-center text-white mb-0">My Projects</h2>
 
         <div className="row text-sm-center g-3 my-3">
           <div className="col-md">
             <div className="card h-100 dark-bg-color text-light">
               <div className="card-header h2 text-center">Demo Game</div>
-              <img src={game} class="card-img-top h-50" alt="Python"></img>
+              <img src={game} className="card-img-top h-50" alt="Python"></img>
               <div className="card-body">
                 <h3 className="card-title">A Survival Demo Game</h3>
                 <p className="card-text">
@@ -24,7 +24,7 @@ const Projects = () => {
               <div className="card-footer">
                 <a
                   href="https://demos.stemloyola.org/coder/amrema/demo"
-                  className="btn btn-primary"
+                  className="btn btn-info"
                 >
                   Visit
                 </a>
@@ -35,7 +35,7 @@ const Projects = () => {
           <div className="col-md">
             <div className="card h-100 dark-bg-color text-light">
               <div className="card-header h2 text-center">Safari</div>
-              <img src={safariPhoto} class="card-img-top h-50" alt="Python"></img>
+              <img src={safariPhoto} className="card-img-top h-50" alt="Python"></img>
               <div className="card-body">
                 <h3 className="card-title">
                   A Static Website About Wildlife in Tanzania
@@ -50,7 +50,7 @@ const Projects = () => {
               <div className="card-footer">
                 <a
                   href="https://acamsafari.netlify.app/"
-                  className="btn btn-primary"
+                  className="btn btn-info"
                 >
                   Visit
                 </a>
@@ -63,7 +63,7 @@ const Projects = () => {
               <div className="card-header h2 text-center">
                 Networking(Cities)
               </div>
-              <img src={pythonLogo} class="card-img-top h-50" alt="Python"></img>
+              <img src={pythonLogo} className="card-img-top h-50" alt="Python"></img>
               <div className="card-body">
                 <h3 className="card-title">A Networking Challenge Solution</h3>
                 <p className="card-text">
@@ -77,7 +77,7 @@ const Projects = () => {
               <div className="card-footer">
                 <a
                   href="https://demos.stemloyola.org/coder/amrema/cities"
-                  className="btn btn-primary"
+                  className="btn btn-info"
                 >
                   Visit
                 </a>
@@ -92,7 +92,7 @@ const Projects = () => {
               <div className="card-header h2 text-center">
                 Virus Cleanup Tool
               </div>
-              <img src={pythonLogo} class="card-img-top h-50" alt="Python"></img>
+              <img src={pythonLogo} className="card-img-top h-50" alt="Python"></img>
               <div className="card-body">
                 <h3 className="card-title">
                   A Python File Renaming Automation Tool
@@ -106,7 +106,7 @@ const Projects = () => {
               <div className="card-footer">
                 <a
                   href="https://github.com/AlvinMrema/virus-cleanup-tool"
-                  className="btn btn-primary"
+                  className="btn btn-info"
                 >
                   Read More
                 </a>
